@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Syed Bilal Majid | Web Developer Portfolio</title>
+    <meta name="description" content="Portfolio of Syed Bilal Majid, a web developer building responsive, accessible websites with HTML, CSS, JavaScript and React.">
+    <meta name="theme-color" content="#0b061f">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" id="top">
+        <div class="container header-inner">
+            <a href="#home" class="logo" aria-label="Bilal Majid, home">
+                <span class="logo-mark">B</span>
+                <span class="logo-text">Bilal<span>.</span></span>
+            </a>
+
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="primaryNav">
+                <span></span><span></span><span></span>
+            </button>
+
+            <nav id="primaryNav" class="primary-nav" aria-label="Primary">
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact" class="nav-cta">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+        <!-- HERO -->
+        <section class="hero" id="home">
+            <div class="glow glow-1" aria-hidden="true"></div>
+            <div class="glow glow-2" aria-hidden="true"></div>
+            <div class="container hero-grid">
+                <div class="hero-copy reveal">
+                    <p class="eyebrow"><span class="dot"></span> Open to internships &amp; junior roles</p>
+                    <h1>Hello, I'm <span class="gradient-text">Syed Bilal Majid</span></h1>
+                    <p class="role">I build <span id="typed" class="typed" aria-live="off"></span><span class="caret" aria-hidden="true"></span></p>
+                    <p class="lead">
+                        A web developer who loves creating beautiful, functional websites. I'm currently remotely working at Bloomrix as a Software Engineer Intern and recently also completed my frontend training at
+                        The AshreiTech Academy.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">View my work <i class='bx bx-right-arrow-alt'></i></a>
+                        <!-- <a href="#" class="btn btn-ghost" id="cvBtn"><i class='bx bx-download'></i> Download CV</a> -->
+                    </div>
+
+                    <ul class="social-media" aria-label="Social links">
+                        <li><a href="https://github.com/BilalMajid010" aria-label="GitHub"><i class='bx bxl-github'></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/bilal-majid-37b56225a/" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a></li>
+                    </ul>
+                </div>
+
+                <div class="hero-art reveal">
+                    <img src="images/hero.png" alt="Illustration of a code editor on a monitor with a phone, settings and cloud icons" width="900" height="728">
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="section" id="about">
+            <div class="container about-grid">
+                <div class="about-visual reveal">
+                    <div class="avatar" role="img" aria-label="Portrait placeholder with initials SBM">
+                        <span><img src="https://media.licdn.com/dms/image/v2/D4D1FAQEdRPIa3rp_CQ/feedshare-document-images_1920/B4DaDbCwbLGUAo-/1/1790381330071?e=1795046400&v=beta&t=9S5kqZeHYTEWx4r633aREpcknRcL2PqjI_cAbzl-LZA" style="border-radius: 10%;"></span>
+                    </div>
+                    <ul class="fact-list">
+                        <li><strong>3</strong><span>projects built</span></li>
+                        <li><strong>4</strong><span>core technologies</span></li>
+                        <li><strong>100%</strong><span>keen to learn</span></li>
+                    </ul>
+                </div>
+
+                <div class="about-content reveal">
+                    <h2 class="section-title">About <span>Me</span></h2>
+                    <p class="about-lead">
+                        Hi there, welcome to my website! I'm Syed Bilal Majid, a passionate web developer who enjoys
+                        learning new technologies and solving problems with code.
+                    </p>
+                    <p>
+                        I'm a Software Engineer Intern at Bloomrix, where I'm building modern websites with
+                        HTML, CSS, JavaScript and React. I care about clean code, good-looking interfaces and sites
+                        that work on every screen. I have also completed my Front-End training from AshreiTech Academy at NASTP, Karachi.
+                    </p>
+                    <p>
+                        Thank you for visiting and getting to know me better. If you have feedback, a suggestion or an
+                        opportunity, please get in touch. I'd love to hear from you.
+                    </p>
+
+                    <h3 class="skills-title">Tech I work with</h3>
+                    <ul class="skills">
+                        <li><i class='bx bxl-html5'></i> HTML5</li>
+                        <li><i class='bx bxl-css3'></i> CSS3</li>
+                        <li><i class='bx bxl-javascript'></i> JavaScript</li>
+                        <li><i class='bx bxl-react'></i> React</li>
+                        <li><i class='bx bxl-git'></i> Git</li>
+                    </ul>
+
+                    <a href="#contact" class="btn btn-primary">Let's talk <i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES -->
+        <section class="section section-alt" id="services">
+            <div class="container">
+                <div class="section-head reveal">
+                    <h2 class="section-title center">My <span>Services</span></h2>
+                    <p class="section-sub">What I can help you build.</p>
+                </div>
+
+                <div class="cards">
+                    <article class="card service reveal">
+                        <div class="icon"><i class='bx bx-code-alt'></i></div>
+                        <h3>Front-End Development</h3>
+                        <p>I build responsive, accessible user interfaces using HTML, CSS and JavaScript (and frameworks like React) to create fast, interactive experiences across devices.</p>
+                    </article>
+                    <article class="card service reveal">
+                        <div class="icon"><i class='bx bx-server'></i></div>
+                        <h3>Backend Development</h3>
+                        <p>I design and implement server-side logic, databases and APIs to ensure reliable data storage, performance and secure communication between client and server.</p>
+                    </article>
+                    <article class="card service reveal">
+                        <div class="icon"><i class='bx bxs-palette'></i></div>
+                        <h3>UI/UX Designing</h3>
+                        <p>I craft user-centered designs, wireframes and prototypes focused on usability and aesthetics to deliver intuitive and engaging product experiences.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="section" id="projects">
+            <div class="container">
+                <div class="section-head reveal">
+                    <h2 class="section-title center">Latest <span>Projects</span></h2>
+                    <p class="section-sub">A few things I've built while learning.</p>
+                </div>
+
+                <div class="cards projects">
+                    <article class="card project reveal">
+                        <div class="thumb"><img src="images/zay.webp" alt="Screenshot of the Zay eCommerce template homepage" loading="lazy" width="1200" height="701"></div>
+                        <div class="body">
+                            <h3>Zay Template</h3>
+                            <p>Front-end template of the Zay eCommerce website, built with HTML &amp; CSS.</p>
+                            <ul class="tags"><li>HTML</li><li>CSS</li></ul>
+                        </div>
+                    </article>
+
+                    <article class="card project reveal">
+                        <div class="thumb contain"><img src="images/tic-tac-toe.png" alt="Tic Tac Toe board with X and O marks" loading="lazy" width="446" height="441"></div>
+                        <div class="body">
+                            <h3>Tic Tac Toe</h3>
+                            <p>The classic two-player Tic Tac Toe game, made with HTML, CSS &amp; JavaScript.</p>
+                            <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+                        </div>
+                    </article>
+
+                    <article class="card project reveal">
+                        <div class="thumb contain"><img src="images/rock-paper-scissors.jpeg" alt="Rock, paper and scissors hand icons" loading="lazy" width="453" height="340"></div>
+                        <div class="body">
+                            <h3>Rock Paper Scissors</h3>
+                            <p>Play Rock Paper Scissors against the computer, made with HTML, CSS &amp; JavaScript.</p>
+                            <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section section-alt" id="contact">
+            <div class="container contact-grid">
+                <div class="contact-info reveal">
+                    <h2 class="section-title">Contact <span>Me</span></h2>
+                    <p class="section-sub left">Have a project in mind, a question, or just want to say hi? Send me a message and I'll get back to you.</p>
+                    <ul class="contact-points">
+                        <li><i class='bx bx-time-five'></i> Quick replies, usually within a day</li>
+                        <li><i class='bx bx-laptop'></i> Available for internships &amp; freelance work</li>
+                        <li><i class='bx bx-world'></i> Working remotely or on site</li>
+                    </ul>
+                </div>
+
+                <form class="contact-form reveal" id="contactForm" novalidate>
+                    <div class="field">
+                        <label for="name">Full name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name" autocomplete="name" required>
+                        <small class="error" aria-live="polite"></small>
+                    </div>
+                    <div class="field">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="name@gmail.com" autocomplete="email" required>
+                        <small class="error" aria-live="polite"></small>
+                    </div>
+                    <div class="field">
+                        <label for="phone">Phone <span class="optional">(optional)</span></label>
+                        <input type="tel" id="phone" name="phone" placeholder="+92 300 0000000" autocomplete="tel">
+                        <small class="error" aria-live="polite"></small>
+                    </div>
+                    <div class="field">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="How can I help?" required></textarea>
+                        <small class="error" aria-live="polite"></small>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send message <i class='bx bx-send'></i></button>
+                    <p class="form-status" id="formStatus" role="status"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>&copy; <span id="year">2026</span> Syed Bilal Majid. All rights reserved.</p>
+            <a href="#top" class="to-top" aria-label="Back to top"><i class='bx bx-chevron-up'></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
